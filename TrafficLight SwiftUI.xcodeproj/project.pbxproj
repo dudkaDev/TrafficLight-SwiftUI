@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55F8D454294385EE00CB1FB4 /* TrafficLight_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F8D453294385EE00CB1FB4 /* TrafficLight_SwiftUIApp.swift */; };
-		55F8D456294385EE00CB1FB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F8D455294385EE00CB1FB4 /* ContentView.swift */; };
+		55F8D454294385EE00CB1FB4 /* TrafficLightSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F8D453294385EE00CB1FB4 /* TrafficLightSwiftUIApp.swift */; };
+		55F8D456294385EE00CB1FB4 /* TrafficLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F8D455294385EE00CB1FB4 /* TrafficLightView.swift */; };
 		55F8D458294385EF00CB1FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F8D457294385EF00CB1FB4 /* Assets.xcassets */; };
 		55F8D45B294385EF00CB1FB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F8D45A294385EF00CB1FB4 /* Preview Assets.xcassets */; };
+		55F8D4622943877F00CB1FB4 /* ColorLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F8D4612943877F00CB1FB4 /* ColorLightView.swift */; };
+		55F8D464294387A900CB1FB4 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F8D463294387A900CB1FB4 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55F8D450294385EE00CB1FB4 /* TrafficLight SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrafficLight SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		55F8D453294385EE00CB1FB4 /* TrafficLight_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight_SwiftUIApp.swift; sourceTree = "<group>"; };
-		55F8D455294385EE00CB1FB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55F8D453294385EE00CB1FB4 /* TrafficLightSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightSwiftUIApp.swift; sourceTree = "<group>"; };
+		55F8D455294385EE00CB1FB4 /* TrafficLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightView.swift; sourceTree = "<group>"; };
 		55F8D457294385EF00CB1FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55F8D45A294385EF00CB1FB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55F8D4612943877F00CB1FB4 /* ColorLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLightView.swift; sourceTree = "<group>"; };
+		55F8D463294387A900CB1FB4 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		55F8D452294385EE00CB1FB4 /* TrafficLight SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				55F8D453294385EE00CB1FB4 /* TrafficLight_SwiftUIApp.swift */,
-				55F8D455294385EE00CB1FB4 /* ContentView.swift */,
+				55F8D453294385EE00CB1FB4 /* TrafficLightSwiftUIApp.swift */,
+				55F8D455294385EE00CB1FB4 /* TrafficLightView.swift */,
+				55F8D4612943877F00CB1FB4 /* ColorLightView.swift */,
+				55F8D463294387A900CB1FB4 /* ButtonView.swift */,
 				55F8D457294385EF00CB1FB4 /* Assets.xcassets */,
 				55F8D459294385EF00CB1FB4 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55F8D456294385EE00CB1FB4 /* ContentView.swift in Sources */,
-				55F8D454294385EE00CB1FB4 /* TrafficLight_SwiftUIApp.swift in Sources */,
+				55F8D4622943877F00CB1FB4 /* ColorLightView.swift in Sources */,
+				55F8D456294385EE00CB1FB4 /* TrafficLightView.swift in Sources */,
+				55F8D464294387A900CB1FB4 /* ButtonView.swift in Sources */,
+				55F8D454294385EE00CB1FB4 /* TrafficLightSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
