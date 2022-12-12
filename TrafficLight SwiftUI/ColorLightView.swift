@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ColorLightView: View {
-    var color: Color
-    var opacity: Double
-    var shadowOpacity: Double
+    let color: Color
+    let opacity: Double
+    let shadowOpacity: Double
     
     var body: some View {
         Circle()

@@ -27,7 +27,7 @@ struct TrafficLightView: View {
     var body: some View {
         ZStack {
             Color(.black)
-                .edgesIgnoringSafeArea(.all)
+                .ignoresSafeArea()
             VStack {
                 ColorLightView(color: .red, opacity: redLightState, shadowOpacity: redShadowState)
                 ColorLightView(color: .yellow, opacity: yellowLightState, shadowOpacity: yellowShadowState)
